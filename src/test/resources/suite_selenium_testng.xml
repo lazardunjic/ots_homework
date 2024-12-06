@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="Selenium UI Automation" verbose="2">
+
+    <parameter name="browser" value="chrome" />
+
+    <test name="TestNG practise">
+        <classes>
+
+           <class name="ui.TestWebPages" />
+
+        </classes>
+
+    </test>
+
+    <test name="Login test">
+        <classes>
+            <class name="ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Products test">
+        <classes>
+            <class name="ui.ProductsTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase test">
+        <classes>
+            <class name="ui.PurchaseTest"/>
+        </classes>
+    </test>
+</suite>

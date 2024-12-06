@@ -1,0 +1,5 @@
+com/pages/ProductsPage.class
+com/pages/LoginPage.class
+com/pages/BasePage.class
+com/utils/WebDriverFabric.class
+com/pages/TopMenu.class
